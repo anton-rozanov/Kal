@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.DayInfo">
+    <ContentPage.Content>
+        <StackLayout x:Name="Tasks" Margin="10">
+            <ScrollView >
+                <StackLayout x:Name="Content" Margin="10">
+                </StackLayout>
+            </ScrollView>
+            <Button Clicked="AddNotification" Text="Add Notification"/>
+            <Button Clicked="AddTask" Text="Add Task"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

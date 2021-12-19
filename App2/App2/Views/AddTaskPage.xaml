@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App2.Views.AddTaskPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label>Название</Label>
+            <Entry x:Name="Name" ></Entry>
+            <Label>Дополнительная информация</Label>
+            <Entry x:Name="DopName" ></Entry>
+            <Label>Час</Label>
+            <Entry x:Name="Hour" ></Entry>
+            <Label>Минута</Label>
+            <Entry x:Name="Minute" ></Entry>
+            <Button Clicked="OnButtonAddClick" Text="Добавить"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
